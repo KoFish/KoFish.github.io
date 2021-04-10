@@ -1,5 +1,5 @@
 # theme: dark
-# author: Krister <krister@hey.com>
+# author: Svartviken <svartvikenrp@gmail.com>
 
 -> Fredag.Kl0326
 
