@@ -1,0 +1,30 @@
+.helper {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.helper .middle {
+    text-align: center;
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.dark .helper a {
+    color: #6f582d;
+}
+
+.klocka {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    color: #d81d1d;
+    animation: blinker 2.3s cubic-bezier(0, 1.43, 0, 0.97) infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0.4;
+    }
+}

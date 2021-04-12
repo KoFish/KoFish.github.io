@@ -34,7 +34,9 @@ VAR AlexUppmarksamhet = 4
 - Du vaknar med en tryckande känsla i bröstet. Någonting är   fel. Det är mörkt i rummet. -> Kl0326_Alternativ
 - (Kl0326_Alternativ)
   * [Titta på väckarklockan]
-    Du trycker på väckarklockans stora knapp och siffrorna 03:26 lyser upp i rött. -> Kl0326_Alternativ
+    Du trycker på väckarklockans stora knapp och tiden lyser ilsket upp i rött
+    03:26 # CLASS: klocka
+    -> Kl0326_Alternativ
   * [Känn efter om Kim ligger kvar i sängen]
     Du sträcker försiktigt ut din hand och känner efter Kims välbekanta form. Hon är varm och andas tungt, djupt försjunken i sömn. -> Kl0326_Alternativ
   * [Kliv upp]
@@ -42,7 +44,7 @@ VAR AlexUppmarksamhet = 4
   ~ ISovrummet = ISovrummet - Alex
 - (del1_alternativ)
   * (robin_sover) [Titta till Robin]
-    Robin sover {mio_sover:också }gott i sin säng med Copernicus sovand i fotänden, precis som vanligt. -> del1_alternativ
+    Robin sover {mio_sover:också }gott i sin säng med Copernicus sovand i fotänden{ not mio_sover:, precis som vanligt}. -> del1_alternativ
   * (mio_sover) [Titta till Mio]
     Mio sover {robin_sover:också }gott i sin säng. På nattduksbordet ligger hennes mobiltelefon och blinkar regelbundet med sitt grön notifikationsljus. -> del1_alternativ
   * [Titta till Felicia]
