@@ -16,11 +16,28 @@
     color: #6f582d;
 }
 
-.klocka {
+i.diceroll {
+    color: #666;
+    font-style: unset;
+    font-family: monospace;
+    font-size: small;
+}
+
+p.klocka {
+    font-style: unset;
     font-family: 'Press Start 2P', cursive;
     text-align: center;
     color: #d81d1d;
     animation: blinker 2.3s cubic-bezier(0, 1.43, 0, 0.97) infinite;
+}
+
+i.dialog {
+    font-style: unset;
+    color: #ba8;
+}
+
+i.dialog.alex {
+    color: #8ba;
 }
 
 @keyframes blinker {
